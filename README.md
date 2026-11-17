@@ -11,9 +11,13 @@ exits at +175 bps take-profit or −60 bps stop, with a 60-bar cooldown after
 any exit. At most one open position, long only. Deterministic: a pure function
 of the bars the harness sends — no clock, no environment, no randomness.
 
-Dev window (official local grade): net PnL **+33.79 USDC** (mirror; official
-grade to be recorded in BUILD-NOTES.md), 2 round trips, max drawdown 0.66%,
-guardrails met. Two executions byte-identical.
+Dev window (official local grade): net PnL **+33.14 USDC**, 2 round trips
+(4 trades), win rate 1.0, max drawdown 0.66%, fees 1.63 USDC, net PnL at 2x
+fees +31.49 USDC, 0 rejected, guardrails met. Two executions byte-identical
+(L1 regrade reproduced byte for byte). Cross-window check on the 20261115 dev
+window (official grade, same commit): −8.90 USDC, 1 round trip, max drawdown
+1.31% — a falling tape, where every dip variant loses; the trend filter keeps
+the loss small and the guardrails met. Full numbers in BUILD-NOTES.md.
 
 ## Run it
 
