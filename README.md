@@ -1,6 +1,8 @@
 # TrendDip — BTC race bot
 
 [![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/berkahmuse/trenddip/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/berkahmuse/trenddip/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603)
 
 A bot that trades Coinbase Wrapped BTC (cbBTC) against USDC, minute by minute,
 on 1-minute on-chain prices, with $1,000 of paper money. It buys only a deep
